@@ -39,12 +39,12 @@ public class CavernPassUncover : MonoBehaviour
 
     void CavernPass()
     {
-        AdjustConfig adjustConfig = new AdjustConfig(BotanyID, AdjustEnvironment.Production, false);
-        adjustConfig.setLogLevel(AdjustLogLevel.Verbose);
-        adjustConfig.setSendInBackground(false);
-        adjustConfig.setEventBufferingEnabled(false);
-        adjustConfig.setLaunchDeferredDeeplink(true);
-        Adjust.start(adjustConfig);
+        //AdjustConfig adjustConfig = new AdjustConfig(BotanyID, AdjustEnvironment.Production, false);
+        //adjustConfig.setLogLevel(AdjustLogLevel.Verbose);
+        //adjustConfig.setSendInBackground(false);
+        //adjustConfig.setEventBufferingEnabled(false);
+        //adjustConfig.setLaunchDeferredDeeplink(true);
+        //Adjust.start(adjustConfig);
 
         StartCoroutine(MoreCavernJoin());
     }
