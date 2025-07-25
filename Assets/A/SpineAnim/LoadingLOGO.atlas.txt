@@ -1,0 +1,90 @@
+
+LoadingLOGO.png
+size: 1884,616
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ColorLoop_1
+  rotate: false
+  xy: 979, 267
+  size: 875, 162
+  orig: 877, 164
+  offset: 1, 1
+  index: -1
+ColorLoop_2
+  rotate: false
+  xy: 979, 431
+  size: 884, 180
+  orig: 887, 183
+  offset: 1, 2
+  index: -1
+Flash_lighe_b
+  rotate: true
+  xy: 979, 2
+  size: 263, 375
+  orig: 283, 377
+  offset: 16, 1
+  index: -1
+fx_dot_1
+  rotate: false
+  xy: 1856, 403
+  size: 26, 26
+  orig: 28, 28
+  offset: 1, 1
+  index: -1
+fx_dot_2
+  rotate: true
+  xy: 1807, 152
+  size: 48, 47
+  orig: 50, 49
+  offset: 1, 1
+  index: -1
+fx_dot_3
+  rotate: false
+  xy: 1807, 202
+  size: 63, 63
+  orig: 65, 65
+  offset: 1, 1
+  index: -1
+jell_back
+  rotate: false
+  xy: 2, 205
+  size: 975, 406
+  orig: 987, 417
+  offset: 6, 5
+  index: -1
+jelly_1
+  rotate: true
+  xy: 2, 9
+  size: 194, 309
+  orig: 197, 311
+  offset: 1, 1
+  index: -1
+jelly_2
+  rotate: true
+  xy: 618, 38
+  size: 165, 212
+  orig: 169, 214
+  offset: 2, 1
+  index: -1
+jelly_3
+  rotate: true
+  xy: 313, 30
+  size: 173, 303
+  orig: 176, 306
+  offset: 2, 2
+  index: -1
+jelly_4
+  rotate: false
+  xy: 1611, 11
+  size: 194, 254
+  orig: 197, 257
+  offset: 2, 2
+  index: -1
+jelly_5
+  rotate: false
+  xy: 1356, 14
+  size: 253, 251
+  orig: 256, 254
+  offset: 2, 2
+  index: -1

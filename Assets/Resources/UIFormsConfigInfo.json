@@ -1,0 +1,67 @@
+{
+  "ConfigInfo": [
+    {
+      "Key": "本配置文件说明"
+    },
+    {
+      "Key": "LadePlank",
+      "Value": "UIPanel\\LadePlank"
+    },
+    {
+      "Key": "LugBadFlairPlank",
+      "Value": "UIPanel\\LugBadFlairPlank"
+    },
+    {
+      "Key": "DisposeCrowdPlank",
+      "Value": "UIPanel\\DisposeCrowdPlank"
+    },
+    {
+      "Key": "SplitReelPlank",
+      "Value": "UIPanel\\SplitReelPlank"
+    },
+    {
+      "Key": "HangGoldViewPlank",
+      "Value": "UIPanel\\HangGoldViewPlank"
+    },
+    {
+      "Key": "HangSecretPlank",
+      "Value": "UIPanel\\HangSecretPlank"
+    },
+    {
+      "Key": "HangMuchPlank",
+      "Value": "UIPanel\\HangMuchPlank"
+    },
+    {
+      "Key": "VerifyBadFlairPlank",
+      "Value": "UIPanel\\VerifyBadFlairPlank"
+    },
+    {
+      "Key": "DiseaseReelPlank",
+      "Value": "UIPanel\\DiseaseReelPlank"
+    },
+    {
+      "Key": "WhittlePlank",
+      "Value": "UIPanel\\WhittlePlank"
+    },
+    {
+      "Key": "JobSingWhittlePlank",
+      "Value": "UIPanel\\JobSingWhittlePlank"
+    },
+    {
+      "Key": "Photo",
+      "Value": "UIPanel\\Photo"
+    },
+    {
+      "Key": "LullMePlank",
+      "Value": "UIPanel\\LullMePlank"
+    },
+    {
+        "Key": "CashOutPanel",
+        "Value": "UIPanel\\CashOutPanel"
+    },
+    {
+      "Key": "StifleDeal",
+      "Value": "UIPanel\\StifleDeal"
+    }
+  ]
+}
