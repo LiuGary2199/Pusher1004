@@ -25,7 +25,13 @@ public class CashOutEnter : MonoBehaviour
     void Start()
     {
         CashOutManager.GetInstance()._CashOutEnter = this;
-        OpenPanelBtn.onClick.AddListener(() => { UIManager.GetInstance().PearUIStain(nameof(CashOutPanel)); });
+        OpenPanelBtn.onClick.AddListener(() => {
+          string aaa =   MoreBulkUncover.TowSmooth(CShield.tixiananniu);
+            if (aaa =="new")
+            {
+                UIManager.GetInstance().PearUIStain(nameof(CashOutPanel));
+            }
+        });
         UpdateMoney();
     }
 

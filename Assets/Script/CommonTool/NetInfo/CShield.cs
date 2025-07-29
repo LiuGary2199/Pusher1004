@@ -153,7 +153,7 @@ public class CShield
     public const string Dy_Teem_Weld= "sv_gems_type";
     public const string Dy_Subsist_Oat_Half= "sv_first_add_ball";
     public const string uspanel= "uspanel";
-
+    public const string tixiananniu = "sv_tixiananniu";
 
 
 

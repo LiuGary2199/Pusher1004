@@ -123,6 +123,7 @@ public class JobEverTrulyInstrument : MonoBehaviour
             }
 
             CropUncover.Instance.LadeLump();
+            MoreBulkUncover.GunSmooth(CShield.tixiananniu, "new");
             SinkWordCop.gameObject.SetActive(true);
         }
         else
