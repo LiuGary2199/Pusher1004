@@ -13,6 +13,7 @@ public class StifleDeal : GoldUIStain
    
     public override void Display()
     {
+        SummerPort.text = "";
         base.Display();
     }
 

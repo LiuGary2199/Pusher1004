@@ -82,7 +82,7 @@ public class GameUtil
     {
         double num = 0;
         InterstitialData interstitialData = SapScanTip.instance.LadeBulk.Interstitial_data_list[0];
-        double cashReward = interstitialData.reward_num * GetCashMulti();
+        double cashReward = interstitialData.reward_num * GetCashMultiWithOutRandom();
         num = Math.Round(cashReward, 2);
         return num;
     }

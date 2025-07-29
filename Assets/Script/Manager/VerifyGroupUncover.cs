@@ -109,6 +109,10 @@ public class VerifyGroupUncover : MonoBehaviour
     public void PearLullUsPlank()
     {
         if (AxRome || CropUncover.Instance.FareRome) return;
+        if (MoreBulkUncover.TowSmooth(CShield.uspanel) ==  "done")
+        {
+            return;
+        }
 
         if (FalconErie.MyUnder())
         {
@@ -117,8 +121,6 @@ public class VerifyGroupUncover : MonoBehaviour
         AxRome = true;
         CropUncover.Instance.LadeLump();
         UIManager.GetInstance().PearUIStain(nameof(LullMePlank));
-        MoreBulkUncover.GunSmooth(CShield.Raw_Mine_Solo_Ox, "done");
-
+        MoreBulkUncover.GunSmooth(CShield.uspanel, "done");
     }
-
 }

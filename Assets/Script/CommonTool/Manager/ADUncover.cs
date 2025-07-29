@@ -549,7 +549,7 @@ public class ADUncover : MonoBehaviour
                     return;
                 }
 
-                if (AxLoop)
+                if (AxLoop) 
                 {
                     PerryOfTossRagtime(ADType.Interstitial);
                     return;
