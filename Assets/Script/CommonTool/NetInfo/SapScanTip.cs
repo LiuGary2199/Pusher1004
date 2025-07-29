@@ -70,10 +70,10 @@ public class SapScanTip : MonoBehaviour
     int Tread_Briny= 0;
 [UnityEngine.Serialization.FormerlySerializedAs("ready")]    public bool Tread= false;
     //ios 获取idfa函数声明
-//#if UNITY_IOS
-//    [DllImport("__Internal")]
-//    internal extern static void getIDFA();
-//#endif
+#if UNITY_IOS
+    [DllImport("__Internal")]
+    internal extern static void getIDFA();
+#endif
     void Awake()
     {
         instance = this;
@@ -94,7 +94,7 @@ public class SapScanTip : MonoBehaviour
         else if (Application.platform == RuntimePlatform.IPhonePlayer)
         {
 #if UNITY_IOS
-            //getIDFA();
+            getIDFA();
             string idfv = UnityEngine.iOS.Device.vendorIdentifier;
             MoreBulkUncover.GunSmooth("idfv", idfv);
 #endif
